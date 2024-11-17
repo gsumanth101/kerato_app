@@ -1,0 +1,62 @@
+/* FILE: static/styles.css */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.chatbox {
+    margin-top: 30px;
+}
+
+.chatbox-messages {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.user-message {
+    text-align: right;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.bot-response {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #28a745;
+}
